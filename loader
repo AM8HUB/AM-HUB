@@ -8,6 +8,7 @@ local games = {
   [1099836680792370] = "https://raw.githubusercontent.com/AM8HUB/AM-HUB/refs/heads/main/games/STEALABRAINROT/game.lua", -- StealABrainrot normal
   [96342491571673] = "https://raw.githubusercontent.com/AM8HUB/AM-HUB/refs/heads/main/games/STEALABRAINROT/game.lua", -- StealABrainrot new players
   [131623223084840] = "https://raw.githubusercontent.com/AM8HUB/AM-HUB/refs/heads/main/games/TSUNAMIBRAINROT/game.lua" -- TsunamiBrainrot
+  [86362492050446] = "https://raw.githubusercontent.com/AM8HUB/AM-HUB/refs/heads/main/games/TSUNAMIBRAINROT/game.lua" -- TsunamiBrainrot other
 }
 
 if games[gmid] then
