@@ -1,0 +1,12 @@
+local tonum = tonumber or function(a) return a end
+local Not = loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMinisterq/Notification-Library/Main/Library.lua"))()
+local gmid = tonum(game.GameId)
+local games = {
+  [123] = "http://sda"
+}
+
+if games[gmid] then
+    loadstring(game:HttpGet(games[gmid]))()
+else
+    Not:SendNotification("Error", "Jogo nao é compativel\nGame not compatible\njuego no compatible", 3)
+end
