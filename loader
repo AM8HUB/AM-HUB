@@ -2,7 +2,8 @@ local tonum = tonumber or function(a) return a end
 local Not = loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMinisterq/Notification-Library/Main/Library.lua"))()
 local gmid = tonum(game.GameId)
 local games = {
-  [123] = "http://sda"
+  [7377689248] = "https://raw.githubusercontent.com/AM8HUB/AM-HUB/refs/heads/main/games/OMNIX/betav3.lua",
+  [101026405220822 ] = "https://raw.githubusercontent.com/AM8HUB/AM-HUB/refs/heads/main/games/OMNIX/betav3.lua"
 }
 
 if games[gmid] then
